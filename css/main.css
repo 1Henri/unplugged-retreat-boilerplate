@@ -272,7 +272,7 @@ footer .copyright {
 
 .hero-area {
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
   flex-flow: row wrap;
   min-height: 500px;
   background: url('../img/jake-melara-30679-unsplash.jpg');
@@ -285,6 +285,7 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif; 
   font-weight: 400; 
   line-height: 1.2; 
+  padding-left: 1em;
 
 }
 
@@ -810,6 +811,7 @@ h2 {
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
+    margin: 5px 0;
 }
 
   /* Aside */
